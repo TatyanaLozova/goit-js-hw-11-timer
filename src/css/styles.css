@@ -1,4 +1,52 @@
 body {
-  background: black;
-  color: wheat;
+  /* display: flex;
+  background: rgb(255, 255, 255);
+  color: rgb(27, 25, 20);
+  background-image: url("https://s1.1zoom.ru/big0/239/Christmas_Branches_Balls_Snowflakes_Gifts_Pine_598307_1280x847.jpg");
+  background-size: cover;
+  font-size: 120%; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Roboto Slab", serif;
+  background-image: url("https://s1.1zoom.ru/big0/239/Christmas_Branches_Balls_Snowflakes_Gifts_Pine_598307_1280x847.jpg");
+  background-size: cover;
+  font-size: 100%;
+}
+#header_title {
+  margin-bottom: 150px;
+  font-family: "Roboto Slab", serif;
+  color: rgb(216, 43, 72);
+  font-size: 27px;
+  text-align: center;
+  font-weight: bolder;
+}
+.field > span {
+  display: block;
+  min-width: 50px;
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  background: rgb(106, 207, 211);
+  opacity: 0.8;
+  color: #ffffff;
+  line-height: 20px;
+  border-radius: 2px;
+}
+.timer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+#timer-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px auto;
 }
