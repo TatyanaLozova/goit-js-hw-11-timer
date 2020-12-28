@@ -28,4 +28,4 @@ const timerNewYear = new CountdownTimer({
   targetDate: new Date("Jan 1, 2021"),
 });
 
-timerNewYear.start();
+// timerNewYear.start(); запуск с первой секунды
